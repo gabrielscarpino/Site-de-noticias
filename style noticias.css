@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+h1{color: white;}
+h2{color: white}
+h3{color: rgb(226, 43, 46);}
+p{color: black;}
+
+#esportescss h2{color: black;}
+#esportescss{background-color: rgba(255,0, 0, 0.1);}
+#esportescss .articles article a{ background-color: red;}
+
+
+#economiacss h2{color: black;}
+#economiacss {background-color: rgba(251, 107, 3, 0.1)}
+#economiacss .articles article a{ background-color: rgb(255, 123, 0);}
+
+#musicacss h2{color: black;}
+#musicacss {background-color: rgba(129, 3, 129, 0.1);}
+#musicacss .articles article a {background-color: rgb(190, 16, 106);}
+
+#tecnologiacss h2{color: black;}
+#tecnologiacss {background-color: rgba(14, 231, 68, 0.1);}
+#tecnologiacss .articles article a {background-color: rgb(13, 215, 172);}
+
+
+
+.data {color: blueviolet;}
+
+
+
+
+
+
+body > header {
+    background-color: crimson;
+    padding: 16px 0;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+.containerheader {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+header .containerheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.articles
+{   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+    
+.articles article h3 {
+    margin-bottom: 16px;
+    margin-top:16px ;
+}
+
+.articles article a {
+    background-color:blue;
+    color: aliceblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3{
+    font-size: 26px;
+}
+
+
+
+
+
+
+
+section{
+    padding: 16px 0;}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+section h2{
+    font-size: 32px;
+}
